@@ -4,7 +4,7 @@
 let btnChecked = document.querySelector('#S1');
 
 btnChecked.addEventListener('change', (event) => {
-    document.querySelector('#output').innerHTML = 'S1';
+    document.querySelector('#output').innerHTML = 'S1, ';
 });
 
 
