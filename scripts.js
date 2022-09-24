@@ -1,12 +1,29 @@
 
 
 // Show image taggs in output
-let btnChecked = document.querySelector('#S1');
+let btnCalidon = document.querySelector('#Calidon');
 
-btnChecked.addEventListener('change', (event) => {
-    document.querySelector('#output').innerHTML = 'S1, ';
+btnCalidon.addEventListener('change', (event) => {
+    document.querySelector('#output').innerHTML = 'Calidon ';
 });
 
+let btnPrimacare = document.querySelector('#Primacare™ Wingback');
+
+btnPrimacare.addEventListener('change', (event) => {
+    document.querySelector('#output').innerHTML = 'Primacare™ Wingback ';
+});
+
+let btnAubra = document.querySelector('#Aubra');
+
+btnAubra.addEventListener('change', (event) => {
+    document.querySelector('#output').innerHTML = 'Aubra ';
+});
+
+let btnFrolick = document.querySelector('#Frolick');
+
+btnFrolick.addEventListener('change', (event) => {
+    document.querySelector('#output').innerHTML = 'Frolick ';
+});
 
 
 // Clear output
