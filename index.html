@@ -17,61 +17,19 @@
         <div class="container-fluid text-center">
             <div>
                 <h1>Image Library Tagging</h1>
-                <form name="tagging" class="row align-items-start">
-                    <div class="row bg-primary">
+                <form method="get" class="row align-items-start" onsubmit="changeText()">
+                    <div class="row">
                         <p>Product Lines</p>
                         <div>
-                            <label><input type="checkbox" value="Calidon">Calidon</label>
-                            <label><input type="checkbox" value="Primacare™ Wingback">Primacare™ Wingback</label>
-                            <label><input type="checkbox" value="Aubra">Aubra</label>
-                            <label><input type="checkbox" value="Frolick">Frolick</label>
+                            <label><input type="checkbox" class="furniture" name="Calidon" value="Calidon">Calidon</label>
+                            <!-- <label><input type="checkbox" class="furniture" name="Primacare™ Wingback" value="Primacare™ Wingback">Primacare™ Wingback</label>
+                            <label><input type="checkbox" class="furniture" name="Aubra" value="Aubra">Aubra</label>
+                            <label><input type="checkbox" class="furniture" name="Frolick" value="Frolick">Frolick</label> -->
                         </div>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
-                    <div class="col">
-                        <input type="checkbox" id="" name="" value="">
-                        <label for=""></label>
-                    </div>
                     <div>
-                        <!-- <input class="btn btn-primary" type="submit" value="Submit" id="submit"> -->
-                        <button>Submit</button>
+                        <input class="btn btn-primary" type="submit" value="Output" id="submit">
                         <!-- <input class="btn btn-danger" type="reset" value="Reset" id="reset"> -->
-                        <h1>Output</h1>
+                        <p id="output"></p>
                     </div>
                 </form>
             </div>
