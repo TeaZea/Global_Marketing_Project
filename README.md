@@ -18,3 +18,8 @@ Challenges {
 - Created and edited basic index, css and script pages.
 
   }
+
+10/21/2022 {
+
+- Tried redoing scripts to get the checkbox values to show as an output but it isn't working.
+  }
