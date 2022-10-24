@@ -42,3 +42,8 @@ function myFunc() {
     
     
 }
+
+// 1. Creating an empty list
+// 2. Create a function to add checked boxes values to the list
+// 3. Create a function that runs the checked boxes function and then prints them to innerHTML <p> tag.
+// 4. Run the 2nd func on via a submit onclick button.
