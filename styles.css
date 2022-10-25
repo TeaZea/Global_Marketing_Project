@@ -13,10 +13,22 @@ Med grey: #666a6c
 
 h1 {
     padding: 10px 0 10px 0;
+    /* background-color: #058ece;
+    display: inline;
+    padding: 20px; */
 }
+
+/* #wp-bg {
+    background-color: #058ece;
+}
+
+#hc-bg {
+    background-color: #058ece;
+} */
 
 .heading {
     font-size: 25px;
+    margin-top: 10px;
 }
 
 .furniture {
@@ -25,5 +37,14 @@ h1 {
 }
 
 .sub-head {
-    margin-bottom: 10px;
+    margin: 20px 0px 10px 0px;
+}
+
+.button-div {
+    padding: 25px 0px 25px 0px;
+}
+
+#global {
+    background-color: #058ece;
+    color: white;
 }
