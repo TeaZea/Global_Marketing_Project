@@ -11,6 +11,7 @@ Challenges {
 - Concatonating the output string properly to ensure all checked boxes are added properly (solved 10/25/2022).
 - Reseting the form properly (solved 10/25/2022).
 - Logic ensuring only one value of the same name is outputed even if more than one is checked (SIMILAR TO PYTHON SET()).
+- Having problems overriding bootstrap.
 
 }
 
@@ -33,4 +34,5 @@ Challenges {
 - Created the scripts to output an alert with the tag string.
 - Added reset button.
 - Added more catagories. Had to stop as application will go to the back to the product team to ensure catagories/items are correct.
+- Added CSS classes to index and stylesheet.
   }
