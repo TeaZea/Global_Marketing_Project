@@ -62,4 +62,4 @@ function GetSelected() {
 
 // 1. Creating an empty list
 // 2. Create a function to add checked boxes values to the list - onload
-// 3. Create a function that onclick then prints them to innerHTML <p> tag.
+// 3. Create a function that onclick then prints them to innerHTML <p> tag/alert.
