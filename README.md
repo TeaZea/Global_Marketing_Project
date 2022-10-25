@@ -28,4 +28,5 @@ Challenges {
 10/25/2022 {
 
 - Created the scripts to output an alert with the tag string.
+- Added reset button.
   }
