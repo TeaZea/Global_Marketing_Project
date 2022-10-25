@@ -15,18 +15,26 @@
                 <h1>Image Library Tagging</h1>
                 <form method="get" class="row align-items-start" id="formFurniture">
                     <div class="row">
-                        <p>Product Lines</p>
-                        <div>
+                        <div class="bg-primary">
+                            <p>Product Lines</p>
                             <label><input type="checkbox" class="furniture" name="Calidon" value="Calidon">Calidon</label>
                             <label><input type="checkbox" class="furniture" name="Primacare™ Wingback" value="Primacare™ Wingback">Primacare™ Wingback</label>
                             <label><input type="checkbox" class="furniture" name="Aubra" value="Aubra">Aubra</label>
                             <label><input type="checkbox" class="furniture" name="Frolick" value="Frolick">Frolick</label>
                         </div>
+                        <br>
+                        <div>
+                            <p>Global Brands</p>
+                            <label><input type="checkbox" class="furniture" name="GU" value="GU">GU</label>
+                            <label><input type="checkbox" class="furniture" name="Global Upholstery" value="Global Upholstery">Global Upholstery</label>
+                            <label><input type="checkbox" class="furniture" name="OTG" value="OTG">OTG</label>
+                            <label><input type="checkbox" class="furniture" name="Offices to Go" value="Offices to Go">Offices to Go</label>
+                            <label><input type="checkbox" class="furniture" name="Limited Distribition" value="Limited Distribition">Limited Distribition</label>
+                            <label><input type="checkbox" class="furniture" name="Transactional" value="Transactional">Transactional</label>
+                        </div>
                     <div>
-                        <input class="btn btn-primary" type="button" value="Get" onclick = "GetSelected()">
-                        <!-- <input class="btn btn-primary" type="button" value="Get" id="submit" onclick="getSelected()"> -->
-                        <!-- <input class="btn btn-danger" type="reset" value="Reset" id="reset"> -->
-                        <p id="output"></p>
+                        <input class="btn btn-primary" type="button" value="Get" onclick="GetSelected()">
+                        <input type="reset" class="btn btn-danger">
                     </div>
                 </form>
             </div>
