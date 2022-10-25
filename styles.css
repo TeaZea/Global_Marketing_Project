@@ -6,6 +6,6 @@ h1 {
     padding: 10px 0 10px 0;
 }
 
-#reset {
-    margin: 10px 0 10px 0;
+.heading {
+    font-size: 25px;
 }
