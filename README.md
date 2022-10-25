@@ -24,3 +24,8 @@ Challenges {
 - Tried redoing scripts to get the checkbox values to show as an output but it isn't working.
 - Tried other scripts including, on click for checked boxes and on click for the submit button. Didn't work. Checked console and there seemed to be some DOM errors with how the styles sheet and scripts were loading. Fixed those but too burnt out to retry the previously failed iterations of scripts.
   }
+
+10/25/2022 {
+
+- Created the scripts to output an alert with the tag string.
+  }
