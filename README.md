@@ -4,6 +4,8 @@ Need to create an application for users to help come up with a string to input a
 
 The reason this needs to be done is to develop a proper SOP and organize naming schemes throughout the department.
 
+<bold>As of 10/25/2022, application is being review by product team to ensure catagories and item information/organization is correct</bold>
+
 Challenges {
 
 - Concatonating the output string properly to ensure all checked boxes are added properly (solved 10/25/2022).
@@ -30,4 +32,5 @@ Challenges {
 
 - Created the scripts to output an alert with the tag string.
 - Added reset button.
+- Added more catagories. Had to stop as application will go to the back to the product team to ensure catagories/items are correct.
   }
