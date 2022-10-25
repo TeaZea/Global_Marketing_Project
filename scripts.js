@@ -37,11 +37,28 @@
 //     console.log(`${print}`);
 // }
 
-function myFunc() {
-    let checkbox = Array(document.querySelectorAll(".furniture:checked"));
-    
-    
-}
+function GetSelected() {
+    //Create an Array
+    let output = [];
+
+    //Reference the form
+    const formFurniture = document.getElementById("formFurniture");
+
+    //Reference all the CheckBoxes in form
+    const chks = formFurniture.getElementsByTagName("INPUT");
+
+    // Loop and push the checked CheckBox value in Array.
+    for (var i = 0; i < chks.length; i++) {
+        if (chks[i].checked) {
+            output.push(chks[i].value);
+        }
+    }
+
+    //Display the values
+    if (output.length > 0) {
+        alert("Output values: " + output.join("   "));
+    }
+};
 
 // 1. Creating an empty list
 // 2. Create a function to add checked boxes values to the list - onload
