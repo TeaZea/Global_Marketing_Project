@@ -6,8 +6,9 @@ The reason this needs to be done is to develop a proper SOP and organize naming 
 
 Challenges {
 
-- Concatonating the output string properly to ensure all checked boxes are added properly.
-- Reseting the form properly.
+- Concatonating the output string properly to ensure all checked boxes are added properly (solved 10/25/2022).
+- Reseting the form properly (solved 10/25/2022).
+- If statement ensuring only one seating, Desking + Tables, Diling + Storage and Panel + Storage outputs, even if more than one is checked.
 
 }
 
