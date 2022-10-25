@@ -1,5 +1,14 @@
+/* Light Grey Background: #f7f7f7
+Dark Grey Font: #44494d
+Blue Highlights: #058ece
+Med grey: #666a6c
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f7f7f7;
 }
 
 h1 {
@@ -8,4 +17,13 @@ h1 {
 
 .heading {
     font-size: 25px;
+}
+
+.furniture {
+    color: #44494d;
+    margin: 5px;
+}
+
+.sub-head {
+    margin-bottom: 10px;
 }
