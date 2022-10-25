@@ -9,21 +9,22 @@
         <link rel="stylesheet" href="styles.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     </head>
-    <body onload="myFunc()">
+    <body>
         <div class="container-fluid text-center">
             <div>
                 <h1>Image Library Tagging</h1>
-                <form method="get" class="row align-items-start">
+                <form method="get" class="row align-items-start" id="formFurniture">
                     <div class="row">
                         <p>Product Lines</p>
                         <div>
                             <label><input type="checkbox" class="furniture" name="Calidon" value="Calidon">Calidon</label>
-                            <!-- <label><input type="checkbox" class="furniture" name="Primacare™ Wingback" value="Primacare™ Wingback">Primacare™ Wingback</label>
+                            <label><input type="checkbox" class="furniture" name="Primacare™ Wingback" value="Primacare™ Wingback">Primacare™ Wingback</label>
                             <label><input type="checkbox" class="furniture" name="Aubra" value="Aubra">Aubra</label>
-                            <label><input type="checkbox" class="furniture" name="Frolick" value="Frolick">Frolick</label> -->
+                            <label><input type="checkbox" class="furniture" name="Frolick" value="Frolick">Frolick</label>
                         </div>
                     <div>
-                        <input class="btn btn-primary" type="submit" value="Output" id="submit">
+                        <input class="btn btn-primary" type="button" value="Get" onclick = "GetSelected()">
+                        <!-- <input class="btn btn-primary" type="button" value="Get" id="submit" onclick="getSelected()"> -->
                         <!-- <input class="btn btn-danger" type="reset" value="Reset" id="reset"> -->
                         <p id="output"></p>
                     </div>
