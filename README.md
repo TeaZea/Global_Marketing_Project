@@ -8,6 +8,7 @@ The reason this needs to be done is to develop a proper SOP and organize naming 
 
 Challenges {
 
+- Make it data driven in second iteration of program (from a DB).
 - Concatonating the output string properly to ensure all checked boxes are added properly (solved 10/25/2022).
 - Reseting the form properly (solved 10/25/2022).
 - Logic ensuring only one value of the same name is outputed even if more than one is checked (SIMILAR TO PYTHON SET()).
